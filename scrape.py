@@ -28,4 +28,4 @@ for i in scrape_div:
 
 out = open("locs.json","w");
 
-out.write(json.dumps(data))
+out.write(json.dumps(data,indent=4))
